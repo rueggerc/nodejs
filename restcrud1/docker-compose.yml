@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  rest-crud:
+    build: .
+    container_name: restcrud1-c
+    ports:
+      - "3000:3000"
