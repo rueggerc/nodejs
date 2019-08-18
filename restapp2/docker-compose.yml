@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  sensors:
+    build: .
+    image: sensors-image
+    container_name: sensors
+    ports:
+      - 3000:3000
